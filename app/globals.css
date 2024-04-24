@@ -7,3 +7,33 @@
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'BAESystemsWeb';
+  src: url('/fonts/BAESystemsWeb-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BAESystemsWeb';
+  src: url('/fonts/BAESystemsWeb-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BAESystemsWeb';
+  src: url('/fonts/BAESystemsWeb-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: 'BAESystemsWeb', 'Arial';
+}
+
+body {
+  background-color: #007383;
+  color: white;
+}
