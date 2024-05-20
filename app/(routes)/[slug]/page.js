@@ -15,7 +15,7 @@ export default function Page({ params }) {
             alt='Image with tag'
           />
         </a>
-        <a href={imageWithTagSrc} target='_blank' rel='noopener noreferrer'>
+        <a href={imageWithoutTagSrc} target='_blank' rel='noopener noreferrer'>
           <img
             src={imageWithoutTagSrc}
             className='w-full max-h-52 object-cover object-bottom'
