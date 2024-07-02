@@ -8,7 +8,7 @@ export default function Page({ params }) {
 
   useEffect(() => {
     router.push(imageWithoutTagSrc)
-  }, [])
+  }, [])//
   return (
     <></>
     // <main className='flex flex-col items-center'>
