@@ -7,7 +7,7 @@ export default function Page({ params }) {
       <div className='mt-24 mb-8 p-4 px-12 bg-orange font-bold'>
         TAP THUMBNAILS TO OPEN
       </div>*/}
-      <section className='w-1/2 flex flex-col gap-8'>
+      <section /*className='w-1/2 flex flex-col gap-8'*/>
         <a href={imageWithTagSrc} target='_blank' rel='noopener noreferrer'>
           {/*<img
             src={imageWithTagSrc}
