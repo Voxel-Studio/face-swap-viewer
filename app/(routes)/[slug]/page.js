@@ -1,10 +1,10 @@
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
+
+
 
 export default function Page({ params }) {
   const imageWithTagSrc = `https://firebasestorage.googleapis.com/v0/b/frcapparence.appspot.com/o/${params.slug}-b.jpg?alt=media&token=b3e78d49-967d-471c-bc70-bad4c54d28a2`
   const imageWithoutTagSrc = `https://firebasestorage.googleapis.com/v0/b/frcapparence.appspot.com/o/${params.slug}-a.jpg?alt=media&token=b3e78d49-967d-471c-bc70-bad4c54d28a2`
-  const router = useRouter()
+
 
 
 
