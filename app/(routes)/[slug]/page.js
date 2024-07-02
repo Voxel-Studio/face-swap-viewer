@@ -25,10 +25,8 @@ export default function Page({ params }) {
         <a href={imageWithoutTagSrc} target='_blank' rel='noopener noreferrer'>
           <img
             src={imageWithoutTagSrc}
-            className='w-full max-h-52 object-cover object-bottom'
+            className='w-full max-h-full object-cover object-bottom'
             alt='Image without tag'
-            width='100vw'
-            height='100vh'
           />
         </a>
       </section>
