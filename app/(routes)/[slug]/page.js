@@ -9,7 +9,7 @@ export default function Page({ params }) {
 
 
   return (
-    <main /*className='flex flex-col items-center'*/>
+    <main className='flex flex-col items-center'>
       {/*<img className='w-24 absolute right-4 top-4' src='/images/logo.png'></img>
       <div className='mt-24 mb-8 p-4 px-12 bg-orange font-bold'>
         TAP THUMBNAILS TO OPEN
@@ -27,6 +27,8 @@ export default function Page({ params }) {
             src={imageWithoutTagSrc}
             className='w-full max-h-52 object-cover object-bottom'
             alt='Image without tag'
+            width='100vw'
+            height='100vh'
           />
         </a>
       </section>
